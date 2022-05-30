@@ -1,0 +1,66 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.word1 {
+  color:#00ff89;
+}
+
+.word2 {
+  color: whitesmoke;
+}
+
+.word3 {
+  color: rgb(104, 6, 184);
+}
+
+.buffer {
+  height: 50px;
+}
+
+hr {
+  margin: 20px auto;
+  color: rgb(199, 16, 177);
+  border: 3px solid rgb(199, 16, 177);
+  max-width: 65px;
+  opacity: 1;  
+}
+
+button {
+  justify-content: center;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 400px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: rgb(199, 16, 177);
+  border-color: #0dc923a6;
+}
+
+.btn-primary:hover {
+  background-color: rgb(8, 129, 83);
+  border-color: #0dc923a6;
+  border-width: 4px;
+}
+
+.btn-xl {
+  padding: 2rem 3rem;
+}
+
